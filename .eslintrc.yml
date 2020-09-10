@@ -15,5 +15,5 @@ plugins:
   - svelte3
 overrides:
   - files:
-    - '*.svelte'
+    - '**/*.svelte'
     processor: 'svelte3/svelte3'

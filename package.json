@@ -8,6 +8,9 @@
   "description": "Blank template for Nativescript application using Svelte",
   "license": "Apache-2.0",
   "repository": "https://github.com/halfnelson/svelte-native-template",
+  "scripts": {
+    "lint": "eslint --fix --ext svelte,ts app"
+  },
   "dependencies": {
     "@nativescript/core": "~7.0.0",
     "@nativescript/theme": "~2.3.3",
